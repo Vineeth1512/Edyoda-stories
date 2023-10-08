@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Caveat+Brush&family=Poppins:wght@600&family=Raleway:ital,wght@0,200;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Caveat+Brush&family=Poppins:wght@600&family=Raleway:ital,wght@0,200;0,400;1,200&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F6FF;
+
+    font-size: 16px;
+}
+
+.main-latest {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0;
+    font-family: Normal;
+    font-size: 24px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.25;
+    letter-spacing: -.6px;
+    text-align: left;
+    font-family: Raleway, sans-serif;
+    color: #000;
+}
+
+.blog-wrapper {
+    min-height: 100vh;
+    padding: 2% 6%;
+    background-color: #f2f6ff;
+
+}
+
+.main {
+    width: 70%;
+    margin: 0px auto;
+}
+
+.card {
+    width: calc(30% - 5px - 10px);
+    border: 1px solid rgba(0,168,255,.3);
+    margin: 10px 5px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    flex: 1 1 30%;
+    cursor: pointer;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.para {
+    margin: 4px 0;
+    color: rgba(0, 0, 0, 6);
+    line-height: 1.43;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.5;
+    text-overflow: ellipsis;
+}
+
+.title {
+    font-size: 18px;
+    text-align: left;
+    margin: 0%;
+    font-weight: 600;
+    padding-bottom: 7px;
+}
+
+.author {
+    color: #0096ff;
+    font-size: 14px;
+   
+    font-weight: 500;
+    text-decoration: none;
+    padding-top: 4px;
+}
+
+.date {
+    color: rgba(0, 0, 0, 7);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.details {
+    margin: 15px;
+}
+
+.card-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-section {
+    flex: 1;
+}
+.explore-para{
+    text-align: center;
+}
+.icon{
+    font-size: 24px;
+}
+
+
+footer {
+    background: #172146;
+    padding: 70px 16%;
+}

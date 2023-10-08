@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Caveat+Brush&family=Poppins:wght@600&family=Raleway:ital,wght@0,200;1,200&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #F2F6FF;
+    
+    font-size: 16px;
+}
+
+.edyoda-sharing{
+    min-width: 23em;
+    opacity: .6;
+    font-family: Raleway,sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+    margin-top: 0.5em;
+
+}
+
+.header-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 2px;
+    font-family: Raleway, sans-serif;
+    box-shadow: 1px 1px 4px rgb(118, 111, 111);
+}
+.header-image{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 30px;
+    height: 75px;
+    vertical-align: middle;
+    top: -6px;
+    position: relative;
+
+}
+.header-wrapper div{
+    align-items: center;
+    height: 100%;
+}
+
+.header-explore{
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: .9px;
+    text-align: center;
+    cursor: pointer;
+    margin-right: 3px;
+}
+.header-explore span{
+    margin-left: 6px;
+}
+.header-middle{
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+
+}
+.edyoda-platform{
+    margin-right: 100px; 
+    display: flex;
+
+}
+.edyoda-platform p{
+    min-width: 23em;
+    opacity: .6;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1;
+    letter-spacing: .4px;
+    text-align: left;
+    color: rgba(0,0,0,.6);
+   
+}
+
+.btn-main-website{
+    height: 40px;
+    min-width: 100px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    border: none;
+    cursor: pointer;
+    padding: 8px 22px;
+    margin-right: 16px;
+    color: #fff;
+    outline: none;
+    font-family: Raleway,sans-serif;
+    font-size: .9em;
+    font-weight: 600;
+    letter-spacing: .03em;
+   
+    background: linear-gradient(269deg,#0048ff,#0096ff);
+}
